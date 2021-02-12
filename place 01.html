@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+
+    <title>Place 01</title>
+
+</head>
+
+<body class="text-gray-800 antialiased">
+
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-20 py-10 navbar-expand-lg">
+
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+
+                <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="index.html">LOGO</a>
+
+                <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+
+          <i class="text-white fas fa-bars"></i>
+        </button>
+            </div>
+
+            <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
+
+                <ul class="flex flex-col lg:flex-row list-none mr-auto">
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="/index.html">
+              COMPANY NAME</a>
+                    </li>
+                </ul>
+
+                <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <!-- <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i> -->
+                            <span class="lg inline-block ml-2">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <!-- <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i> -->
+                            <span class="lg inline-block ml-2">About Us</span>
+                        </a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <!-- <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i> -->
+                            <span class="lg inline-block ml-2">Product</span>
+                        </a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <!-- <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i> -->
+                            <span class="lg inline-block ml-2">Contat Us</span>
+                        </a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <button class="bg-white text-gray-800 bg-green-400 text-xs font-bold uppercase px-4 py-2 focus:outline-none hover:bg-gray-200 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3" type="button" style="transition: all 0.15s ease 0s;">
+              <i class="fas fa-arrow-alt-circle-down"></i> Signup
+            </button>
+                    </li>
+                    <li class="flex items-center">
+
+                        <button class="bg-white text-gray-800 bg-green-400  text-xs font-bold uppercase px-4 py-2 focus:outline-none hover:bg-gray-200 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3" type="button" style="transition: all 0.15s ease 0s;">
+              <i class="fas fa-arrow-alt-circle-down"></i> Signin
+            </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 15vh; max-height: 30vh;">
+
+            <div class="absolute top-0 w-full h-full bg-center bg-cover" style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'>
+
+                <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+            </div>
+
+
+            <div class="container relative mx-auto">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full px-4 ml-auto mr-auto text-center">
+
+                        <!-- <div class="pr-6">
+                <h1 class="mt-20 text-white font-semibold text-5xl">
+                  Let's Find Your Favor.
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br>
+                </p>
+              </div> -->
+
+
+                        <!-- <div class="pr-12">
+                  <h1 class="mt-20 text-white font-semibold text-5xl">
+                    Let's Find Your Favor.
+                  </h1>
+                  <p class="mt-4 text-lg text-gray-300">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </p>
+                </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 70px; transform: translateZ(0px);">
+
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+            </div>
+        </div>
+
+
+        <section class="pb-10 relative block bg-white">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+            </div>
+            <div class="container mx-auto px-4 lg:pt-2 lg:pb-8">
+                <section class="text-gray-600 body-font overflow-hidden">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+                                <h2 class="text-sm title-font text-gray-500 tracking-widest">Location</h2>
+                                <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Place 01</h1>
+                                <div class="flex mb-4">
+                                    <a class="flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1">Description</a>
+                                    <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
+                                    <a class="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
+                                </div>
+                                <p class="leading-relaxed mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+                                <div class="flex mb-4">
+                                    <span class="flex items-center">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                      </path>
+                    </svg>
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                      </path>
+                    </svg>
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                      </path>
+                    </svg>
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                      </path>
+                    </svg>
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+                      <path
+                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                      </path>
+                    </svg>
+                    <span class="text-gray-600 ml-3">4 Reviews</span>
+                                    </span>
+                                    <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
+                    <a class="text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                          d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                      </svg>
+                    </a>
+                    <a class="text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                          d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                        </path>
+                      </svg>
+                    </a>
+                  </span>
+                                </div>
+                                <div class="flex border-t border-gray-200 py-2">
+                                    <span class="text-gray-500">Location</span>
+                                    <span class="ml-auto text-gray-900">Location Name</span>
+                                </div>
+                                <div class="flex border-t border-gray-200 py-2">
+                                    <span class="text-gray-500">Price</span>
+                                    <span id="price" class="ml-auto text-gray-900">Rs.xxxx.oo</span>
+                                </div>
+                                <div class="flex border-t border-b mb-6 border-gray-200 py-2">
+
+                                    <span>
+
+                    <span class="flex border-t border-b mb-6 border-gray-200 py-2">Quantity</span>
+                                    <div class="relative">
+                                        <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
+                        <option>2</option>
+                        <option>3</option>
+                        <option>5</option>
+                        <option>above 5</option>
+                      </select>
+                                        <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </span>
+                                    </div>
+
+                                    </span>
+
+                                </div>
+                                <div class="flex">
+                                    <span class="title-font font-medium text-2xl text-gray-900">TOTAL :- Rs.xxxxx.00</span>
+                                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Reserve</button>
+                                    <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      class="w-5 h-5" viewBox="0 0 24 24">
+                      <path
+                        d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+                      </path>
+                    </svg>
+                  </button>
+                                </div>
+                            </div>
+                            <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="./assets/img/3.jpg">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+    </main>
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+            <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+        </div>
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl font-semibold">Let's Travel Any where!</h4>
+                    <h5 class="text-lg mt-0 mb-2 text-gray-700">
+                        Stay with us any book your favor.
+                    </h5>
+                    <div class="mt-6">
+                        <button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-twitter"></i></button><button class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-dribbble"></i></button><button class="bg-white text-pink-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-instagram"></i>
+            </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Featured Services</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Bookig</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">News</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Offers</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Top List</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4">
+                            <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Terms &amp;
+                    Conditions</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Privacy
+                    Policy</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-400" />
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-gray-600 font-semibold py-1">
+                        Copyright © 2021 ABC Company
+                        <a href="#" class="text-gray-600 hover:text-gray-900">ABC.lk</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden");
+        document.getElementById(collapseID).classList.toggle("block");
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    let id = urlParams.get('id');
+
+
+    let data = [{
+        id: 1,
+        price: "2000",
+    }, {
+        id: 2,
+        price: "2000",
+    }, {
+        id: 3,
+        price: "2000",
+    }, {
+        id: 4,
+        price: "2000",
+    }]
+
+    place = data.filter((location) => location.id == id)
+    let element = document.querySelector('#price');
+</script>
+
+
+</html>

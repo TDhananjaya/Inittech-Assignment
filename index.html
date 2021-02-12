@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+    <link rel="stylesheet" href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+
+    <title>ABC Company</title>
+
+</head>
+
+<body class="text-gray-800 antialiased">
+
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-20 py-10 navbar-expand-lg">
+
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+
+                <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="#">LOGO</a>
+                <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+            </div>
+
+            <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
+
+                <ul class="flex flex-col lg:flex-row list-none mr-auto">
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+
+              COMPANY NAME</a>
+                    </li>
+                </ul>
+
+                <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <span class="lg inline-block ml-2">Home</span></a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <span class="lg inline-block ml-2">About Us</span></a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <span class="lg inline-block ml-2">Product</span></a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-green-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#">
+                            <span class="lg inline-block ml-2">Contat Us</span></a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <button class="bg-white text-gray-800 bg-green-400 text-xs font-bold uppercase px-4 py-2 focus:outline-none hover:bg-gray-200 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3" type="button" style="transition: all 0.15s ease 0s;">
+              <i class="fas fa-arrow-alt-circle-down"></i> Signup
+            </button>
+                    </li>
+                    <li class="flex items-center">
+
+                        <button class="bg-white text-gray-800 bg-green-400  text-xs font-bold uppercase px-4 py-2 focus:outline-none hover:bg-gray-200 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3" type="button" style="transition: all 0.15s ease 0s;">
+              <i class="fas fa-arrow-alt-circle-down"></i> Signin
+            </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+
+            <div class="absolute top-0 w-full h-full bg-center bg-cover" style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'>
+
+                <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+            </div>
+
+
+            <div class="container relative mx-auto">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full px-4 ml-auto mr-auto text-center">
+
+                        <div class="pr-6">
+                            <h1 class="mt-20 text-white font-semibold text-5xl">
+                                Let's Find Your Favor.
+                            </h1>
+                            <p class="mt-4 text-lg text-gray-300">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br>
+                            </p>
+                        </div>
+
+                        <div class="container h-screen -mt-10 mx-auto flex justify-center items-center p-2 md:p-0">
+
+                            <div class="border border-gray-300 p-6 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg">
+
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div class="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded">
+                                        <div class="flex border rounded bg-gray-300 items-center p-2 ">
+                                            <svg class="fill-current text-gray-800 mr-2 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path class="heroicon-ui"
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      </svg>
+                                            <input type="text" placeholder="Location .." class="bg-gray-300 max-w-full focus:outline-none text-gray-700" />
+                                        </div>
+                                        <div class="flex border rounded bg-gray-300 items-center p-2 ">
+                                            <svg class="fill-current text-gray-800 mr-2 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path class="heroicon-ui"
+                          d="M12 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm9 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v2z" />
+                      </svg>
+                                            <input type="text" placeholder="Number of Guest" class="bg-gray-300 max-w-full focus:outline-none text-gray-700" />
+                                        </div>
+
+                                    </div>
+
+                                    <div class="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded">
+
+                                        <div class="flex border rounded bg-gray-300 items-center p-2 ">
+                                            <svg class="fill-current text-gray-800 mr-2 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path class="heroicon-ui"
+                          d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM5.68 7.1A7.96 7.96 0 0 0 4.06 11H5a1 1 0 0 1 0 2h-.94a7.95 7.95 0 0 0 1.32 3.5A9.96 9.96 0 0 1 11 14.05V9a1 1 0 0 1 2 0v5.05a9.96 9.96 0 0 1 5.62 2.45 7.95 7.95 0 0 0 1.32-3.5H19a1 1 0 0 1 0-2h.94a7.96 7.96 0 0 0-1.62-3.9l-.66.66a1 1 0 1 1-1.42-1.42l.67-.66A7.96 7.96 0 0 0 13 4.06V5a1 1 0 0 1-2 0v-.94c-1.46.18-2.8.76-3.9 1.62l.66.66a1 1 0 0 1-1.42 1.42l-.66-.67zM6.71 18a7.97 7.97 0 0 0 10.58 0 7.97 7.97 0 0 0-10.58 0z" />
+                      </svg>
+
+                                            <input type="text" placeholder="Check In" class="bg-gray-300 max-w-full focus:outline-none text-gray-700" />
+                                        </div>
+
+                                        <div class="flex border rounded bg-gray-300 items-center p-2 ">
+                                            <svg class="fill-current text-gray-800 mr-2 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path class="heroicon-ui"
+                          d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM5.68 7.1A7.96 7.96 0 0 0 4.06 11H5a1 1 0 0 1 0 2h-.94a7.95 7.95 0 0 0 1.32 3.5A9.96 9.96 0 0 1 11 14.05V9a1 1 0 0 1 2 0v5.05a9.96 9.96 0 0 1 5.62 2.45 7.95 7.95 0 0 0 1.32-3.5H19a1 1 0 0 1 0-2h.94a7.96 7.96 0 0 0-1.62-3.9l-.66.66a1 1 0 1 1-1.42-1.42l.67-.66A7.96 7.96 0 0 0 13 4.06V5a1 1 0 0 1-2 0v-.94c-1.46.18-2.8.76-3.9 1.62l.66.66a1 1 0 0 1-1.42 1.42l-.66-.67zM6.71 18a7.97 7.97 0 0 0 10.58 0 7.97 7.97 0 0 0-10.58 0z" />
+                      </svg>
+                                            <input type="text" placeholder="Check Out" class="bg-gray-300 max-w-full focus:outline-none text-gray-700" />
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="flex justify-center"><button class="p-2 border w-1/4 rounded-md bg-green-400 focus:outline-none hover:bg-green-800 text-white">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 70px; transform: translateZ(0px);">
+
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+
+          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+            </div>
+        </div>
+
+        <section class="pb-20 bg-gray-300 -mt-24">
+            <div class="container mx-auto px-4">
+
+                <div class="flex flex-wrap items-center mt-32">
+                    <section class="text-gray-600 body-font">
+                        <div class="container px-5 py-24 mx-auto">
+                            <div class="flex flex-wrap w-full mb-20">
+                                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Top Places</h1>
+                                    <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                                </div>
+                                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.
+                                </p>
+                            </div>
+                            <div class="flex flex-wrap -m-4">
+                                <div class="xl:w-1/4 md:w-1/2 p-4">
+                                    <div class="bg-gray-100 p-6 rounded-lg">
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=1">
+                                            <img class="h-40 rounded w-full object-cover object-center mb-6 h-64 bg-white opacity-100 hover:opacity-70 cursor-pointer" src="./assets/img/1.jpg">
+                                            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Ratings & Location</h3>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Name</h2>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Price Eg: Rs.110.00</h2>
+                                            <p class="leading-relaxed text-base">Description & Offers</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="xl:w-1/4 md:w-1/2 p-4">
+                                    <div class="bg-gray-100 p-6 rounded-lg">
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=2">
+                                            <img class="h-40 rounded w-full object-cover object-center mb-6 h-64 bg-white opacity-100 hover:opacity-70 cursor-pointer" src="./assets/img/2.jpeg">
+                                            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Ratings & Location</h3>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Name</h2>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Price Eg: Rs.110.00</h2>
+                                            <p class="leading-relaxed text-base">Description & Offers</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="xl:w-1/4 md:w-1/2 p-4">
+                                    <div class="bg-gray-100 p-6 rounded-lg">
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=3">
+                                            <img class="h-40 rounded w-full object-cover object-center mb-6 h-64 bg-white opacity-100 hover:opacity-70 cursor-pointer" src="./assets/img/3.jpg">
+                                            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Ratings & Location</h3>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Name</h2>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Price Eg: Rs.110.00</h2>
+                                            <p class="leading-relaxed text-base">Description & Offers</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="xl:w-1/4 md:w-1/2 p-4">
+                                    <div class="bg-gray-100 p-6 rounded-lg">
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=4">
+                                            <img class="h-40 rounded w-full object-cover object-center mb-6 h-64 bg-white opacity-100 hover:opacity-70 cursor-pointer" src="./assets/img/4.jpg">
+                                            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Ratings & Location</h3>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Name</h2>
+                                            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Price Eg: Rs.110.00</h2>
+                                            <p class="leading-relaxed text-base">Description & Offers</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="pb-20 relative block bg-gray-900">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+            </div>
+            <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-24 mx-auto">
+                        <div class="flex flex-col text-center w-full mb-20">
+                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom
+                            </h1>
+                            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                a type specimen book.</p>
+                        </div>
+                        <div class="flex flex-wrap -m-4">
+                            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                                <div class="flex relative cursor-pointer">
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=1">
+                                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="./assets/img/1.jpg">
+                                        <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80">
+                                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Price</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Name</h1>
+                                            <p class="leading-relaxed">Short Description</p>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                                <div class="flex relative cursor-pointer">
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=2">
+                                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="./assets/img/2.jpeg">
+                                        <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80">
+                                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Price</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Name</h1>
+                                            <p class="leading-relaxed">Short Description</p>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                                <div class="flex relative cursor-pointer">
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=3">
+                                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="./assets/img/3.jpg">
+                                        <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80">
+                                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Price</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Name</h1>
+                                            <p class="leading-relaxed">Short Description</p>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                                <div class="flex relative cursor-pointer">
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=4">
+                                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="./assets/img/4.jpg">
+                                        <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80">
+                                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Price</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Name</h1>
+                                            <p class="leading-relaxed">Short Description</p>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                                <div class="flex relative cursor-pointer">
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=5">
+                                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="./assets/img/5.jpg">
+                                        <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80">
+                                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Price</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Name</h1>
+                                            <p class="leading-relaxed">Short Description</p>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                                <div class="flex relative cursor-pointer">
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="./place 01.html?id=6">
+                                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="./assets/img/6.jpg">
+                                        <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-80">
+                                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Price</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Name</h1>
+                                            <p class="leading-relaxed">Short Description</p>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="relative block py-24 lg:pt-0 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+            <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+        </div>
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl font-semibold">Let's Travel Any where!</h4>
+                    <h5 class="text-lg mt-0 mb-2 text-gray-700">
+                        Stay with us any book your favor.
+                    </h5>
+                    <div class="mt-6">
+                        <button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-twitter"></i></button><button class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-dribbble"></i></button><button class="bg-white text-pink-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
+              <i class="flex fab fa-instagram"></i>
+            </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Featured Services</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Bookig</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">News</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Offers</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Top List</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4">
+                            <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Terms &amp;
+                    Conditions</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Privacy
+                    Policy</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-400" />
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-gray-600 font-semibold py-1">
+                        Copyright © 2021 ABC Company
+                        <a href="#" class="text-gray-600 hover:text-gray-900">ABC.lk</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden");
+        document.getElementById(collapseID).classList.toggle("block");
+    }
+</script>
+<script src="./scripts/script.js" type="text/javascript"></script>
+
+</html>
